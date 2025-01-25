@@ -1,7 +1,7 @@
 const movies = document.getElementById("Movies");
 
 function fetchMovies() {
-    fetch("http://www.omdbapi.com/?i=tt3896198&apikey=3114b5ee&s=avengers")
+    fetch("https://www.omdbapi.com/?i=tt3896198&apikey=3114b5ee&s=avengers")
         .then((data) => {
             return data.json();
         })
